@@ -1,4 +1,4 @@
-import moment from 'moment';
+import moment from 'moment/min/moment-with-locales.min';
 import { expect } from 'chai';
 
 import isSameMonth from '../../src/utils/isSameMonth';

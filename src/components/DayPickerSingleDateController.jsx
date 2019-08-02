@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import momentPropTypes from 'react-moment-proptypes';
 import { forbidExtraProps, mutuallyExclusiveProps, nonNegativeInteger } from 'airbnb-prop-types';
-import moment from 'moment';
+import moment from 'moment/min/moment-with-locales.min';
 import values from 'object.values';
 import isTouchDevice from 'is-touch-device';
 

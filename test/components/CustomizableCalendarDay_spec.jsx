@@ -2,7 +2,7 @@ import React from 'react';
 import { expect } from 'chai';
 import sinon from 'sinon-sandbox';
 import { shallow } from 'enzyme';
-import moment from 'moment';
+import moment from 'moment/min/moment-with-locales.min';
 import raf from 'raf';
 
 import { BLOCKED_MODIFIER } from '../../src/constants';

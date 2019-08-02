@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import moment from 'moment';
+import moment from 'moment/min/moment-with-locales.min';
 
 import getPooledMoment from '../../src/utils/getPooledMoment';
 

@@ -4,7 +4,7 @@ if (process.env.NODE_ENV !== 'production') {
   whyDidYouUpdate(React);
 }
 
-import moment from 'moment';
+import moment from 'moment/min/moment-with-locales.min';
 import aphroditeInterface from 'react-with-styles-interface-aphrodite';
 
 import { configure, addDecorator, setAddon } from '@storybook/react';

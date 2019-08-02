@@ -2,7 +2,7 @@ import React from 'react';
 import { expect } from 'chai';
 import { shallow } from 'enzyme';
 import sinon from 'sinon-sandbox';
-import moment from 'moment';
+import moment from 'moment/min/moment-with-locales.min';
 
 import SingleDatePickerInput from '../../src/components/SingleDatePickerInput';
 import SingleDatePickerInputController from '../../src/components/SingleDatePickerInputController';

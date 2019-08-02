@@ -1,4 +1,4 @@
-import moment from 'moment';
+import moment from 'moment/min/moment-with-locales.min';
 import toISOMonthString from './toISOMonthString';
 
 export default function getVisibleDays(

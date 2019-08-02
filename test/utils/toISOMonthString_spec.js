@@ -1,4 +1,4 @@
-import moment from 'moment';
+import moment from 'moment/min/moment-with-locales.min';
 import { expect } from 'chai';
 
 import { ISO_FORMAT, ISO_MONTH_FORMAT } from '../../src/constants';
