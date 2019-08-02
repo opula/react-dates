@@ -233,6 +233,8 @@ class DayPicker extends React.PureComponent {
     this.setContainerRef = this.setContainerRef.bind(this);
     this.setTransitionContainerRef = this.setTransitionContainerRef.bind(this);
     this.setMonthTitleHeight = this.setMonthTitleHeight.bind(this);
+
+    if (window.setLanguage) { moment.locale(window.setLanguage) };
   }
 
   componentDidMount() {
