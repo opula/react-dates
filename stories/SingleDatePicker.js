@@ -1,5 +1,12 @@
 import React from 'react';
-import moment from 'moment/min/moment-with-locales.min';
+import moment from 'moment';
+import 'moment/locale/fr';
+import 'moment/locale/it';
+import 'moment/locale/es';
+import 'moment/locale/pl';
+import 'moment/locale/ru';
+import 'moment/locale/pt';
+import 'moment/locale/nl';
 import momentJalaali from 'moment-jalaali';
 import { storiesOf } from '@storybook/react';
 import { withInfo } from '@storybook/addon-info';
